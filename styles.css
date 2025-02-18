@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e;
+    color: #eaeaea;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f0a500;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 3px solid #0072ff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Project & Skills List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #16213e;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+ul li:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background: #0f3460;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Scroll Animation */
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
